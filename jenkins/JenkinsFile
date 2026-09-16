@@ -141,6 +141,7 @@ pipeline {
                         reportName: 'Playwright E2E Test Report'
                     ])
                 }
+            }
         }
     }
 
