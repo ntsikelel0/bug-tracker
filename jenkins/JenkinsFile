@@ -164,6 +164,7 @@ pipeline {
                         reportName: 'Performance Test Results Report'
                     ])
                 }
+            }
         }
     }
 
