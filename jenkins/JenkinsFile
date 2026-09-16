@@ -86,10 +86,10 @@ pipeline {
                     resuseNode true
                     args '-v /var/run/docker.sock:/var/run/docker.sock -u 0'
                 }
-                steps{
+            }
+            steps{
                     sh 'docker compose up --build -d'
                 }
-            }
 
         }
     }
