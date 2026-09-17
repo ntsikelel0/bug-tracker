@@ -16,11 +16,11 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: "1.21"
-          cache-dependency-path: bucktracker-backend/go.sum
+          cache-dependency-path: bugtracker-backend/go.sum
 
 
       - name: Execute Backend Unit Tests
-        working-directory: ./bucktracker-backend
+        working-directory: ./bugtracker-backend
         run: |
           go test -v ./...
 
