@@ -94,7 +94,7 @@ jobs:
         uses: grafana/setup-k6-action@v1
 
       - name: Run Performance Tests
-        uses: grafana/setup-k6-action@v1
+        uses: grafana/run-k6-action@v1
         with:
           script: ./tests-perf/scripts.js
           flags: --out json=summary.json
